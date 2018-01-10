@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="docs/" kind="src" path="resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/asm-5.2.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-core-3.2.1.jar" sourcepath="D:/PROJ/_lib/apache-cxf-3.2.1-src.zip"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-bindings-soap-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-databinding-jaxb-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-frontend-simple-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-transports-http-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-wsdl-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/fuelsdk-1.2.2.jar" sourcepath="resources/docs/fuelsdk-1.2.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SalesforceTest/resources/docs/fuelsdk-1.2.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/gson-2.8.2.jar" sourcepath="resources/docs/gson-2.8.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SalesforceTest/resources/docs/gson-2.8.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/woodstox-core-5.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/wsdl4j-1.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/xmlschema-core-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.9.3.jar" sourcepath="resources/docs/commons-beanutils-1.9.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SalesforceTest/resources/docs/commons-beanutils-1.9.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar" sourcepath="resources/docs/commons-logging-1.2-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SalesforceTest/resources/docs/commons-logging-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/cxf-xjc-runtime-3.2.0.jar" sourcepath="D:/PROJ/_lib/apache-cxf-3.2.1-src"/>
+	<classpathentry kind="lib" path="lib/cxf-xjc-boolean-3.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-xjc-bug671-3.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-xjc-dv-3.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-xjc-javadoc-3.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-xjc-ts-3.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-rt-frontend-jaxws-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-text-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
